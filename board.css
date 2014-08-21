@@ -1,0 +1,44 @@
+ h1 {
+      background-color: #EE6E2F;
+      padding: 14px;
+      font-size: 1.5em;
+      font-weight: bold;
+      text-decoration: none;
+      color : white;
+    }
+    .info-area {
+      margin-left: 33em;
+      height: 33em;
+      border: 1px dotted #ff0080
+    }
+    .board {
+      position: absolute;
+      left: 0px;
+      /*float: left;*/
+      width: 33em;
+    }
+    .square {
+      height: 4em;
+      width: 4em;
+      border: 1px dashed #4c4c4c;
+      background-color: #ffffff
+    }
+
+/*    .row.odd .square.odd, .row.even .square.even {
+    }*/
+    .square.odd {
+      background-color: #e6e6e6
+    }
+    .square.highlight {
+      background-color: #ffcc66
+    }
+    .square.selected {
+      background-color: #ff6666
+    }
+    .row {
+      display: block;
+      clear: left;
+    }
+    .square {
+      float: left;
+    }
